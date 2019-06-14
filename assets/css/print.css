@@ -1,0 +1,17 @@
+#search, #level, #line, #text, #sidebar, #btn, #selected{
+    display: none;
+}
+
+#table, th, td {
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin-top: 5%;
+  }
+
+th, td{
+    text-align: center;
+}
+
+#text-laporan{
+    text-align: center;
+}

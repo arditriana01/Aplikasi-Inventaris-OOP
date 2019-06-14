@@ -1,0 +1,43 @@
+Aplikasi Inventaris Sarana dan Prasarana SMK
+
+*Cara instalasi:
+1. instal Xampp
+2. copy folder Inventaris ke "C:\xampp\htdocs\Inventaris"
+3. buka chrome atau browser lain, ketik "localhost/phpmyadmin"
+4. pada kolom create new database ketikan "inventaris" klik create 
+5. klik "import", klik "Choose File" arahkan ke "C:\xampp\htdocs\Inventaris" pilih "inventaris.sql"
+6. buka tab baru ketikkan "localhost/inventaris"
+
+
+*login sebagai administrator default
+username : admin
+password : admin
+
+*login sebagai operator default
+username : operator
+password : operator
+
+*Login sebagai peminjam/pegawai
+username : 25715
+password : 25715
+
+
+*Fungsi folder
+Folder assets -> berisi file css
+Folder function -> berisi fungsi fungsi php seperti koneksi
+Folder page -> berisi halaman dashboard, sidebar digunakan untuk web dinamis
+Folder views -> berisi tampilan halaman website
+index.php -> halaman awal website berisi halaman login pegawai/peminjam
+login_petugas.php ->  berisi halaman login admin & operator
+register_pegawai -> berisi halaman untuk menambah data pegawai/peminjam
+
+
+*fitur-fitur aplikasi
+Login
+Logout
+Register
+Manajemen data
+Inventarisir
+Peminjaman
+Pengembalian
+Generate laporan
